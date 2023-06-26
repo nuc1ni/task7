@@ -91,3 +91,63 @@
     height: 383px;
     background-color: #F4F4F4;
 }
+.image {
+    width: 1920px;
+    height: 557px;
+    position: absolute;
+
+
+}
+.image-content {
+    width: 511px;
+    height: 270.5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.team {
+    width: 1220px;
+    height: 659px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.section-title {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.section-image {
+    width: 1220px;
+    height: 532px;
+    gap: 31px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.section-image-box1 {
+    width: 341px;
+    height: 114px;
+    position: absolute;
+    background-color:  #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+.image-natasha {
+    width: 386px;
+    height: 532px;
+    position: relative;
+}

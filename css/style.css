@@ -1,0 +1,93 @@
+.header {
+    width: 1220px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 53px;
+    margin-left: 350px;
+}
+
+
+.logo {
+    width: 200px;
+    height: 38px;
+
+}
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 825px;
+    height: 65px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 641px;
+    height: 65px;
+    
+    
+}
+.button {
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 16px;
+    margin-top: 254px;
+    
+}
+.title-box {
+    width: 283px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1220px;
+    height: 383px;
+    gap: 31px;
+}
+.box1 {
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+}
+.box2 {
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+
+}
+.box3 {
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+}

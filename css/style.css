@@ -206,16 +206,18 @@
 }
 .container-image{
     position: relative;
+
 }
 .image {
     width: 1920px;
     height: 557px;
     position: relative;
+    
 
 }
 .image-content {
     width: 511px;
-    height: 270.5px;
+    height: 159px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -224,6 +226,22 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
+}
+.short {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.Presentation {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.container-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 .team {
     width: 1220px;
@@ -240,6 +258,7 @@
     flex-direction: row;
     flex-direction: column;
     margin-top: 150px;
+    gap: 16px;
 }
 .section-image {
     width: 1220px;
@@ -249,7 +268,28 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
     
+}
+.team-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.team-title2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.image-natasha {
+    width: 386px;
+    height: 532px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .section-image-box1 {
     width: 341px;
@@ -262,9 +302,4 @@
     justify-content: center;
     align-content: center;
    
-}
-.image-natasha {
-    width: 386px;
-    height: 532px;
-    position: relative;
 }

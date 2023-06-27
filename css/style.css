@@ -55,6 +55,7 @@
     align-items: center;
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
+    color: #FFFFFF;
     
     
     
@@ -89,6 +90,7 @@
     align-content: center;
     align-items: center;
     gap: 41px;
+    
 
 }
 .title1 {
@@ -110,7 +112,7 @@
     height: 383px;
     gap: 31px;
     margin-left: 350px;
-    margin-top: 254px;
+    margin-top: 26px;
 }
 .box1 {
     width: 386px;
@@ -119,6 +121,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     align-content: center;
     gap: 37px;
@@ -129,6 +132,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     color: #37393F;
+    text-align: center;
 }
 .content-paragraph {
     font-family: 'Inter', sans-serif;
@@ -146,29 +150,80 @@
     width: 386px;
     height: 383px;
     background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 37px;
 
 }
 .box3 {
     width: 386px;
     height: 383px;
     background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 37px;
+}
+.div-icon {
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-icon2 {
+    width: 72px;
+    height: 72px;
+    background-color: #6B77E5;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-image {
+    
+    width: 43px;
+    height: 43px;
+    
+}
+.icon-image2 {
+    
+    width: 43px;
+    height: 43px;
+    
+}
+.container-image{
+    position: relative;
 }
 .image {
     width: 1920px;
     height: 557px;
-    position: absolute;
-
+    position: relative;
 
 }
 .image-content {
     width: 511px;
     height: 270.5px;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
 }
 .team {
     width: 1220px;
